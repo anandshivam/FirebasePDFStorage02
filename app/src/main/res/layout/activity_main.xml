@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/selectFile"
+        android:layout_width="161dp"
+        android:layout_height="61dp"
+        android:layout_alignStart="@+id/upload"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="138dp"
+        android:textSize="20sp"
+        android:text="@string/select_file"
+        android:layout_alignLeft="@+id/upload" />
+
+    <EditText
+        android:id="@+id/notification"
+        android:layout_width="331dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="271dp"
+        android:gravity="center"
+        android:hint="@string/no_fle_is_selected"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/fetchFiles"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:text="@string/upload_file"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/fetchFiles" />
+
+    <Button
+        android:id="@+id/fetchFiles"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textSize="20sp"
+        android:text="@string/fetch_files" />
+
+    <EditText
+        android:id="@+id/filetitle"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="@string/enter_the_name_of_document" />
+</RelativeLayout>

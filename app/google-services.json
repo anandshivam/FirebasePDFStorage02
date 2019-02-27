@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301293727848",
+    "firebase_url": "https://fir-pdfstorage02.firebaseio.com",
+    "project_id": "fir-pdfstorage02",
+    "storage_bucket": "fir-pdfstorage02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301293727848:android:e376a01ddfd267da",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.firebasepdfstorage02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301293727848-ocjn20ul3fh231et497luvjdjvp3rvc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.firebasepdfstorage02",
+            "certificate_hash": "c5b707e5b0f7a9c92685a54cecbf9f48f648dc8e"
+          }
+        },
+        {
+          "client_id": "301293727848-d4rme7si7ap1h2nt4324oa89f7ut4p4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOyI2qswsanX3sExxrSSADfEIPuVyR2po"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301293727848-d4rme7si7ap1h2nt4324oa89f7ut4p4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
